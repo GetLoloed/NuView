@@ -1,0 +1,85 @@
+.section {
+  display: flex;
+  max-width: 178.4rem;
+  height: 89.7rem;
+  justify-content: space-between;
+  gap: 2rem;
+
+  .imgMiror {
+    position: absolute;
+    width: 30.9rem;
+    height: 75.6rem;
+    left: 29.5rem;
+  }
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  width: 128.2rem;
+  gap: 6rem;
+  position: relative;
+  margin-top: 8.6rem;
+
+
+  .titleLine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-bottom: #121212 0.1rem solid;
+    padding-bottom: 1rem;
+
+    &_title {
+      font-family: Bigilla, sans-serif;
+      font-size: 6rem;
+      line-height: 6rem;
+      text-transform: uppercase;
+    }
+  }
+
+  &_wrapper {
+    width: 39.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-self: flex-end;
+
+    &_textContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 3.2rem;
+
+      &_text {
+        font-family: Satoshi-Regular, sans-serif;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    &_slogan {
+      font-family: Satoshi-Regular, sans-serif;
+      font-size: 2rem;
+      line-height: 2.7rem;
+    }
+  }
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  gap: 4rem;
+
+  &_slogan {
+    font-family: Satoshi-Regular, sans-serif;
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+
+
+  &_img {
+    width: 49.2rem;
+    height: 58.6rem;
+    object-fit: cover;
+  }
+}

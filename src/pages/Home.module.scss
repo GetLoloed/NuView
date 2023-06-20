@@ -1,0 +1,38 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 103.9rem;
+    gap: 7rem;
+    align-items: center;
+    .title {
+      font-family: Bigilla, sans-serif;
+      font-size: 12rem;
+      line-height: 12.1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .btn {
+      width: 20.9rem;
+      height: 5.9rem;
+      border-radius: 5.7rem;
+      background-color: var(--blanc);
+
+      .btnText {
+        font-size: 2rem;
+        line-height: 2.7rem;
+        text-align: center;
+        color: #AFA099;
+      }
+    }
+  }
+
+}

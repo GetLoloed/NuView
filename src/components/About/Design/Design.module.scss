@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &_img {
+    width: 48.9rem;
+    height: 100%;
+  }
+
+  &_container {
+    display: flex;
+    gap: 8.4rem;
+  }
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    width: 46.5rem;
+    &_title {
+      font-family: Bigilla, sans-serif;
+      font-size: 6rem;
+      line-height: 6rem;
+      text-transform: uppercase;
+    }
+
+    &_text {
+      font-family: Satoshi-Regular, sans-serif;
+      font-size: 1.4rem;
+      line-height: 1.9rem;
+    }
+  }
+}
